@@ -10,10 +10,15 @@ In the latter case the script will execute a full Organization network reset, in
 The CSV input file must be formatted as following:
 
 ORG_NAME        = vCD Organization Name
+
 VAPP_NAME       = vApp Name
+
 VS_NAME         = vShield Edge (if applicable)
+
 VS_TYPE         = Type of network. Possible values: VS_EDGE, VS_APP, VS_ISOLATED
+
 VS_ID           = vShield Manager ID
+
 VS_NAME_VSPHERE = vSphere Name
 
 ORG02,N/A,ORG01-VSE01,VS_EDGE,edge-1,vse-VSE01 (66afb29d-a5d1-4395-b2c4-f9821f2f3b02)
