@@ -8,6 +8,7 @@ The script takes as input either a CSV file with a list of networks (see vcdNetw
 In the latter case the script will execute a full Organization network reset, inclunding Edges, vApp Networks and Isolated Org VDC Networks.
 
 The CSV input file must be formatted as following:
+
 ORG_NAME,VAPP_NAME,VS_NAME,VS_TYPE,VS_ID,VS_NAME_VSPHERE
 ORG02,N/A,ORG01-VSE01,VS_EDGE,edge-1,vse-VSE01 (66afb29d-a5d1-4395-b2c4-f9821f2f3b02)
 
