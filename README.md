@@ -20,8 +20,11 @@ VS_TYPE         = Type of network. Possible values: VS_EDGE, VS_APP, VS_ISOLATED
 
 # CSV Examples
 ORG02,N/A,ORG01-VSE01,VS_EDGE,edge-1                        <--- vShield Edge
+
 ORG02,ORG07_vApp02,ORG02-vAppNet02,VS_ISOLATED,edge-15      <--- Isolated vApp Network
+
 ORG03,ORG03_vAppRouted02,ORG03_vAppNet02,VS_VAPP,edge-17    <--- Routed vApp Network
+
 ORG03,N/A,ISOLATED-NET01,VS_ISOLATED,edge-20                <--- Isolated Org VDC Network
 
 # Usage example 1:
