@@ -34,5 +34,8 @@ vcdNetworksRedeploy -CSVInputFile ./vcdNetworksRedeployInputList.csv -vcdServer 
 # Usage example 2:
 vcdNetworksRedeploy -vcdServer vcdserverFQDN -Orgs ORG01,ORG02,ORG03
 
-Usage example 3:
-vcdNetworksRedeploy -vcdServer vcdserverFQDN -ORG01 -Exclude vApp,OrgVdc
+# Usage example 3:
+vcdNetworksRedeploy -vcdServer vcdserverFQDN -Orgs ORG01 -Exclude vApp,OrgVdc
+
+# Usage example 4:
+vcdNetworksRedeploy -vcdServer vcdserverFQDN -Orgs all -Exclude vApp
