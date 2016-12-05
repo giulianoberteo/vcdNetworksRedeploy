@@ -19,6 +19,7 @@ VS_NAME         = vShield Edge (if applicable)
 VS_TYPE         = Type of network. Possible values: VS_EDGE, VS_APP, VS_ISOLATED
 
 The -Exclude option accepted values are: <vApp, OrgVdc, Edge>
+
 The -Orgs option takes a list of Organizations or <all> can be used to include all organizations
 
 # CSV Examples
