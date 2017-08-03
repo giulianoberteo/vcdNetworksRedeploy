@@ -10,13 +10,13 @@ Using the parameter -Exclude [vApp,OrgVdc,Edge] it's possible to exclude a parti
 
 The CSV input file must be formatted as following:
 
-ORG_NAME        = vCD Organization Name
+ORG_NAME    = vCD Organization Name
 
-VAPP_NAME       = vApp Name
+VAPP_NAME   = vApp Name
 
-VS_NAME         = vShield Edge (if applicable)
+VS_NAME     = vShield Edge (if applicable)
 
-VS_TYPE         = Type of network. Possible values: VS_EDGE, VS_APP, VS_ISOLATED
+VS_TYPE     = Type of network. Possible values: VS_EDGE, VS_APP, VS_ISOLATED
 
 The -Exclude option accepted values are: vApp,OrgVdc,Edge
 
